@@ -43,18 +43,13 @@ app.delete('/users/:id', (req, res) => {
     res.send("User deleted");
 });
 
-// Server start
-app.listen(3000, () => {
-    console.log("Server running on port 3000");
-});
 const express = require("express");
 const app = express();
 
 const PORT = process.env.PORT || 3000;
 
-
 app.get("/", (req, res) => {
-  res.send("API is working 🚀");
+  res.send("API is running 🚀");
 });
 
 app.listen(PORT, () => {
