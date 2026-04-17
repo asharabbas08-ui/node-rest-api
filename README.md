@@ -108,4 +108,5 @@ DELETE /users/:id
 
 ## 👨‍💻 Author
 
-Ashar
+MOHD ASHAR ABBAS
+
